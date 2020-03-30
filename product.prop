@@ -8,3 +8,6 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # Recovery
 ro.recovery.ui.margin_height=87
+
+# Face Unlock
+ro.face.moto_unlock_service.cam_id=5
