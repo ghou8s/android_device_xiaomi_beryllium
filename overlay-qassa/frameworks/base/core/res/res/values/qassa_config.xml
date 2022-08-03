@@ -95,4 +95,7 @@
     <!-- Whether to use old mobile type icons as default -->
     <bool name="config_useOldMobileIcons">true</bool>
 
+    <!-- Wheter device supports an gaming mode profiles -->
+    <bool name="config_gamingmode_performance">true</bool>
+
 </resources>
