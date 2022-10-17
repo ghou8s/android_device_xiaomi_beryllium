@@ -33,7 +33,7 @@ DIR_PREFIX="sdm845-common/proprietary/"
 cd "${VENDOR_DIR}"
 
 # get commit id from input
-if [ "${#}" -eq 1 ]; 
+if [ "${#}" -eq 1 ];
 then
     COMMIT="${1}"
 else
@@ -66,7 +66,7 @@ do
         # check if it has a sha1sum already
         if [[ "$line" == *"|"* ]]; then
             # remove the old sha1sum and append the new one
-            newline="${line:0:${#line}-40}${sha1}" 
+            newline="${line:0:${#line}-40}${sha1}"
         else
             # append the new sha1sum to it
             newline="${line}|${sha1}"
@@ -76,11 +76,11 @@ do
         echo "$line ---> $newline"
 
         # use ^ as delimiter because file path contains "/"
-        sedstr="s^$line^$newline^" 
+        sedstr="s^$line^$newline^"
         sed -i "$sedstr" "${MY_DIR}/proprietary-files.txt"
 
         # exit after the first replacement
         break
     done
-    
+
 done
