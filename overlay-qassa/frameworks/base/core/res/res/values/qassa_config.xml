@@ -86,4 +86,7 @@
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
+    <!-- Gaming Mode FPSInfoService FPS node file path -->
+    <string name="config_gamingmode_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
+
 </resources>
