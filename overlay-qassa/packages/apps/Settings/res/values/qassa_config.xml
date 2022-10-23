@@ -18,4 +18,7 @@
 
     <!-- Whether to enable SelinuxSwitch -->
     <bool name="config_enable_selinux_switch">true</bool>
+
+    <!-- Whether to enable StatusBarPadding -->
+    <bool name="config_enable_statusbar_padding">false</bool>
 </resources>
