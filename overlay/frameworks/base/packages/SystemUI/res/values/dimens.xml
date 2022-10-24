@@ -51,7 +51,4 @@
     <!-- the padding on the start and the end of the statusbar -->
     <dimen name="status_bar_extra_padding">16dp</dimen>
 
-    <!-- size at which Notification icons will be drawn in the status bar -->
-    <dimen name="status_bar_icon_drawing_size">11dp</dimen>
-
 </resources>
