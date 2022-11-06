@@ -92,4 +92,7 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
 
+    <!-- Whether to use old mobile type icons as default -->
+    <bool name="config_useOldMobileIcons">true</bool>
+
 </resources>
