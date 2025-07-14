@@ -13,6 +13,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 USE_PIXEL_CHARGING := true
 TARGET_BOOT_ANIMATION_RES := 1080
 QTI_OPTOUT := true
+QASSA_BUILD_TYPE ?= byNgantu
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := qassa_beryllium
